@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body bgcolor="orange">
+    <script language="JavaScript" src="stile.js"></script>
+    </script>
+    <form name="fform">
+    <PRE>
+
+
+    Nama            :<input type="text" size="25" name="iname"> 
+
+    Nim             :<input type="text" size="11" name="inim"> 
+
+    Jenis kelamin   :<input type="text" size="11" name="jenis"> 
+
+    Agama           :<input type="text" size="11" name="agama"> 
+
+    Status          :<input type="text" size="11" name="status"> 
+
+    jurusan         :<input type="text" size="20"  name="jurusan"> 
+
+    komentar        :<textarea name="komentar" rows="3" cols="30"></textarea> 
+
+
+                                <input type="button" value="kirim" onclick="tekan()"> <input type="reset" value="ulang">
+</PRE>
+
+
+
+    <PRE>
+
+
+
+
+
+        <u><h2>DATA INPUT POLITEKNIK AMAMAPARE TIMIKA</h2></u>
+
+        Nama            :<input type="text" size="25" name="oname"> 
+    
+        Nim             :<input type="text" size="11" name="onim"> 
+    
+        Jenis kelamin   :<input type="text" size="11" name="ojenis"> 
+    
+        Agama           :<input type="text" size="11" name="oagama"> 
+    
+        Status          :<input type="text" size="11" name="ostatus"> 
+    
+        jurusan         :<input type="text" size="20"  name="ojurusan"> 
+    
+        komentar        :<textarea name="okomentar" rows="3" cols="30"></textarea>
+    </PRE>
+
+
+
+    <script>
+
+        function tekan()
+        {
+            var namestr = (document.fform.iname.value);
+            document.fform.oname.value =namestr;
+            var nimstr = (document.fform.inim.value);
+            document.fform.onim.value =nimstr;
+            var jenisstr = (document.fform.jenis.value);
+            document.fform.ojenis.value =jenisstr;
+            var agamastr = (document.fform.agama.value);
+            document.fform.oagama.value =agamastr;
+            var statusstr = (document.fform.status.value);
+            document.fform.ostatus.value =statusstr;
+            var jurusanstr = (document.fform.jurusan.value);
+            document.fform.ojurusan.value =jurusanstr;
+            var komentarstr = (document.fform.komentar.value);
+            document.fform.okomentar.value =komentarstr;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
